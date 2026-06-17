@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Studio - Преподаватели</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <!-- Логотип -->
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="Yoga Studio" class="logo__img">
+            </a>
+
+            <!-- Бургер-меню -->
+            <button class="burger" id="burgerBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Навигация -->
+            <nav class="nav" id="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">ГЛАВНАЯ</a></li>
+                    <li class="nav__item"><a href="directions.html" class="nav__link">НАПРАВЛЕНИЯ</a></li>
+                    <li class="nav__item"><a href="teachers.html" class="nav__link active">ПРЕПОДАВАТЕЛИ</a></li>
+                    <li class="nav__item"><a href="services.html" class="nav__link">УСЛУГИ И ПРАЙС</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+    <main>
+         <section class="teachers-page">
+    <div class="container">
+        <h1 class="teachers-page__title">ПРЕПОДАВАТЕЛИ</h1>
+        
+        <div class="teachers__grid">
+            
+    <!-- Преподаватель 1 -->
+    <div class="teacher-card">
+        <div class="teacher-card__image">
+            <img src="images/teacher1.png" alt="Анна Сергеева">
+        </div>
+        <div class="teacher-card__info">
+            <h3 class="teacher-card__name">АННА СЕРГЕЕВА</h3>
+            <p class="teacher-card__direction">Хатха-йога и Йога-терапия</p>
+            <a href="#" class="teacher-card__link" data-modal="teacher1">Подробнее</a>
+        </div>
+    </div>
+
+    <!-- Преподаватель 2 -->
+    <div class="teacher-card">
+        <div class="teacher-card__image">
+            <img src="images/teacher2.png" alt="Дмитрий Кузнецов">
+        </div>
+        <div class="teacher-card__info">
+            <h3 class="teacher-card__name">ДМИТРИЙ КУЗНЕЦОВ</h3>
+            <p class="teacher-card__direction">Хатха-йога</p>
+            <a href="#" class="teacher-card__link" data-modal="teacher2">Подробнее</a>
+        </div>
+    </div>
+
+    <!-- Преподаватель 3 -->
+    <div class="teacher-card">
+        <div class="teacher-card__image">
+            <img src="images/teacher3.png" alt="Константин Иванов">
+        </div>
+        <div class="teacher-card__info">
+            <h3 class="teacher-card__name">КОНСТАНТИН ИВАНОВ</h3>
+            <p class="teacher-card__direction">Кундалини-йога и Пранаяма</p>
+            <a href="#" class="teacher-card__link" data-modal="teacher3">Подробнее</a>
+        </div>
+    </div>
+
+    <!-- Преподаватель 4 -->
+    <div class="teacher-card">
+        <div class="teacher-card__image">
+            <img src="images/teacher4.png" alt="Ольга Сереброва">
+        </div>
+        <div class="teacher-card__info">
+            <h3 class="teacher-card__name">ОЛЬГА СЕРЕБРОВА</h3>
+            <p class="teacher-card__direction">Кундалини-йога</p>
+            <a href="#" class="teacher-card__link" data-modal="teacher4">Подробнее</a>
+        </div>
+    </div>
+
+    <!-- Преподаватель 5 -->
+    <div class="teacher-card">
+        <div class="teacher-card__image">
+            <img src="images/teacher5.png" alt="Елена Ткаченко">
+        </div>
+        <div class="teacher-card__info">
+            <h3 class="teacher-card__name">ЕЛЕНА ТКАЧЕНКО</h3>
+            <p class="teacher-card__direction">Стретчинг</p>
+            <a href="#" class="teacher-card__link" data-modal="teacher5">Подробнее</a>
+        </div>
+    </div>
+
+    <!-- Преподаватель 6 -->
+    <div class="teacher-card">
+        <div class="teacher-card__image">
+            <img src="images/teacher6.png" alt="Михаил Соболев">
+        </div>
+        <div class="teacher-card__info">
+            <h3 class="teacher-card__name">МИХАИЛ СОБОЛЕВ</h3>
+            <p class="teacher-card__direction">Стретчинг и Виньяса-флоу</p>
+            <a href="#" class="teacher-card__link" data-modal="teacher6">Подробнее</a>
+        </div>
+    </div>
+
+    <!-- Преподаватель 7 -->
+    <div class="teacher-card">
+        <div class="teacher-card__image">
+            <img src="images/teacher7.png" alt="Мария Орлова">
+        </div>
+        <div class="teacher-card__info">
+            <h3 class="teacher-card__name">МАРИЯ ОРЛОВА</h3>
+            <p class="teacher-card__direction">Йога-Нидра и Пранаяма</p>
+            <a href="#" class="teacher-card__link" data-modal="teacher7">Подробнее</a>
+        </div>
+    </div>
+
+    <!-- Преподаватель 8 -->
+    <div class="teacher-card">
+        <div class="teacher-card__image">
+            <img src="images/teacher8.png" alt="Анна Ветрова">
+        </div>
+        <div class="teacher-card__info">
+            <h3 class="teacher-card__name">АЛИНА ВЕТРОВА</h3>
+            <p class="teacher-card__direction">Йога-Нидра и Йога-терапия</p>
+            <a href="#" class="teacher-card__link" data-modal="teacher8">Подробнее</a>
+        </div>
+    </div>
+
+    <!-- Преподаватель 9 -->
+    <div class="teacher-card">
+        <div class="teacher-card__image">
+            <img src="images/teacher9.png" alt="Сергей Новиков">
+        </div>
+        <div class="teacher-card__info">
+            <h3 class="teacher-card__name">СЕРГЕЙ НОВИКОВ</h3>
+            <p class="teacher-card__direction">Виньяса-флоу</p>
+            <a href="#" class="teacher-card__link" data-modal="teacher9">Подробнее</a>
+        </div>
+    </div>
+
+    <!-- Преподаватель 10 -->
+    <div class="teacher-card">
+        <div class="teacher-card__image">
+            <img src="images/teacher10.png" alt="Кристина Волкова">
+        </div>
+        <div class="teacher-card__info">
+            <h3 class="teacher-card__name">КРИСТИНА ВОЛКОВА</h3>
+            <p class="teacher-card__direction">Виньяса-флоу и Айенгар-йога</p>
+            <a href="#" class="teacher-card__link" data-modal="teacher10">Подробнее</a>
+        </div>
+    </div>
+
+    <!-- Преподаватель 11 -->
+    <div class="teacher-card">
+        <div class="teacher-card__image">
+            <img src="images/teacher11.png" alt="Илья Громов">
+        </div>
+        <div class="teacher-card__info">
+            <h3 class="teacher-card__name">ИЛЬЯ ГРОМОВ</h3>
+            <p class="teacher-card__direction">Айенгар-йога</p>
+            <a href="#" class="teacher-card__link" data-modal="teacher11">Подробнее</a>
+        </div>
+    </div>
+
+    <!-- Преподаватель 12 -->
+    <div class="teacher-card">
+        <div class="teacher-card__image">
+            <img src="images/teacher12.png" alt="Наталья Левина">
+        </div>
+        <div class="teacher-card__info">
+            <h3 class="teacher-card__name">НАТАЛЬЯ ЛЕВИНА</h3>
+            <p class="teacher-card__direction">Йога-терапия</p>
+            <a href="#" class="teacher-card__link" data-modal="teacher12">Подробнее</a>
+        </div>
+    </div>
+</div>
+    </div>
+</section>
+        </main>
+
+    <footer class="footer">
+        <div class="container">
+             <div class="footer__inner">
+
+    <!-- Колонка 1: Логотип + время работы -->
+    <div class="footer__col">
+        <a href="index.html" class="footer__logo">
+            <img src="images/logo.png" alt="Yoga Studio" class="logo__img">
+        </a>
+        <div class="footer__hours">
+            <p><strong>Время работы:</strong></p>
+            <p>Пн-Пт: с 08:00 до 22:00</p>
+            <p>Сб-Вс: с 09:00 до 18:00</p>
+        </div>
+    </div>
+
+    <!-- Колонка 2: Навигация -->
+    <div class="footer__col">
+        <h4 class="footer__title">НАВИГАЦИЯ</h4>
+        <ul class="footer__list">
+            <li><a href="index.html">ГЛАВНАЯ</a></li>
+            <li><a href="directions.html">НАПРАВЛЕНИЯ</a></li>
+            <li><a href="teachers.html">ПРЕПОДАВАТЕЛИ</a></li>
+            <li><a href="services.html">УСЛУГИ И ПРАЙС</a></li>
+        </ul>
+    </div>
+
+    <!-- Колонка 3: Контакты -->
+    <div class="footer__col">
+        <h4 class="footer__title">КОНТАКТЫ</h4>
+        <ul class="footer__list">
+            <li>м. "Комендантский проспект"<br>г. СПб, ул. Ильюшина, д. 14</li>
+            <li><a href="tel:+79516741741">+7 (951) 674-17-41</a></li>
+            <li><a href="mailto:info@yoga.studio">info@yoga.studio</a></li>
+        </ul>
+    </div>
+
+    <!-- Колонка 4: Соцсети -->
+    <div class="footer__col">
+        <h4 class="footer__title">СЛЕДИТЕ ЗА НАМИ</h4>
+        <div class="footer__social">
+            <a href="#" class="footer__social-link">
+                <img src="images/instagram.png" alt="Instagram">
+            </a>
+            <a href="#" class="footer__social-link">
+                <img src="images/telegram.png" alt="Telegram">
+            </a>
+            <a href="#" class="footer__social-link">
+                <img src="images/vk.png" alt="VK">
+            </a>
+            <a href="#" class="footer__social-link">
+                <img src="images/whatsapp.png" alt="WhatsApp">
+            </a>
+        </div>
+    </div>
+</div>
+        </div>
+    </footer>
+
+    <!-- Модальные окна для преподавателей -->
+<!-- Преподаватель 1 -->
+<div class="teacher-modal" id="teacher1">
+    <div class="teacher-modal__content">
+        <button class="teacher-modal__close" data-close="teacher1">×</button>
+        <h2 class="teacher-modal__title">АННА СЕРГЕЕВА</h2>
+        <p class="teacher-modal__direction">Хатха-йога и Йога-терапия</p>
+        <p class="teachers-modal__subtitle">Опыт:</p>
+        <ul class="teacher-modal__list">
+            <li>9 лет практики</li>
+            <li>6 лет преподавания</li>
+            <li>420+ проведённых занятий</li>
+        </ul>
+        <p class="teachers-modal__subtitle">Образование:</p>
+        <ul class="teacher-modal__list">
+            <li>РГУФК (кафедра теории и методики йоги)</li>
+            <li>Курс «Йога-терапия заболеваний опорно-двигательного аппарата» (120 часов)</li>
+            <li>Семинары по анатомии с Александром Шишкиным (ежегодно)</li>
+        </ul>
+        <p class="teachers-modal__subtitle">Личная история:</p>
+        <p class="teachers-modal__text">Анна пришла в йогу через боль в спине. 10 лет в офисе, сколиоз, зажатые плечи, хронические мигрени — она перепробовала массажи, остеопатов и уколы. Ничего не помогало надолго. На первом занятии йогой она не смогла наклониться к ногам, а после шавасаны впервые за месяц уснула без таблеток. Через 3 года регулярной практики боль ушла. Ещё через год Анна уволилась из офиса и пошла учить других.</p>
+        <p class="teachers-modal__subtitle">Стиль преподавания:</p>
+        <p class="teachers-modal__text">Спокойный, вдумчивый, с вниманием к деталям. Анна никогда не скажет «тянись сильнее». Вместо этого она подойдёт и мягко поправит. У неё нет задачи «впихнуть» ученика в позу — есть задача сделать так, чтобы выход из асаны был безопасным и приятным.</p>
+        <p class="teachers-modal__subtitle">Расписание Анны:</p>
+        <ul class="teacher-modal__list">
+            <li>ПН 08:00 (Хатха)</li>
+            <li>ВТ 15:00 (Йога-терапия)</li>
+            <li>ВТ 19:00 (Хатха)</li>
+            <li>СР 08:00 (Хатха)</li>
+            <li>ЧТ 17:00 (Йога-терапия)</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Преподаватель 2 -->
+<div class="teacher-modal" id="teacher2">
+    <div class="teacher-modal__content">
+        <button class="teacher-modal__close" data-close="teacher2">×</button>
+        <h2 class="teacher-modal__title">ДМИТРИЙ КУЗНЕЦОВ</h2>
+        <p class="teacher-modal__direction">Хатха-йога</p>
+        <p class="teachers-modal__subtitle">Опыт:</p>
+<ul class="teacher-modal__list">
+    <li>7 лет практики</li>
+    <li>4 года преподавания</li>
+    <li>250+ проведённых занятий</li>
+</ul>
+
+<p class="teachers-modal__subtitle">Образование:</p>
+<ul class="teacher-modal__list">
+    <li>Мастер спорта по дзюдо</li>
+    <li>Курсы йогатерапии при РГУФК</li>
+    <li>Сертификат «Анатомия для преподавателей йоги» (80 часов)</li>
+</ul>
+
+<p class="teachers-modal__subtitle">Личная история:</p>
+<p class="teachers-modal__text">Дмитрий — мастер спорта по дзюдо. В йогу пришёл после разрыва крестообразной связки, когда врачи сказали: «ходить сможешь, но про спорт забудь». Он не забыл — через йогу восстановил колено, вернулся к лёгким тренировкам и теперь помогает другим.</p>
+
+<p class="teachers-modal__subtitle">Стиль преподавания:</p>
+<p class="teachers-modal__text">Чёткий, структурный, без воды. Дмитрий объясняет, какая мышца за что отвечает и как не травмироваться. Никакой эзотерики, только анатомия, биомеханика и здравый смысл.</p>
+
+<p class="teachers-modal__subtitle">Расписание Дмитрия:</p>
+<ul class="teacher-modal__list">
+    <li>ВТ 08:00 (Хатха)</li>
+    <li>СР 12:00 (Хатха)</li>
+    <li>ПТ 12:00 (Хатха)</li>
+    <li>СБ 10:00 (Хатха)</li>
+</ul>
+    </div>
+</div>
+
+<!-- Преподаватель 3 -->
+<div class="teacher-modal" id="teacher3">
+    <div class="teacher-modal__content">
+        <button class="teacher-modal__close" data-close="teacher3">×</button>
+        <h2 class="teacher-modal__title">КОНСТАНТИН ИВАНОВ</h2>
+        <p class="teacher-modal__direction">Кундалини-йога и Пранаяма</p>
+        <p class="teachers-modal__subtitle">Опыт:</p>
+<ul class="teacher-modal__list">
+    <li>8 лет практики</li>
+    <li>4 года преподавания</li>
+    <li>350+ проведённых занятий</li>
+</ul>
+
+<p class="teachers-modal__subtitle">Образование:</p>
+<ul class="teacher-modal__list">
+    <li>KRI Level 1 Instructor (международный сертификат)</li>
+    <li>KRI Level 2 (в процессе)</li>
+    <li>Курс «Психология стресса и выгорания» (МГУ)</li>
+</ul>
+
+<p class="teachers-modal__subtitle">Личная история:</p>
+<p class="teachers-modal__text">Константин был IT-менеджером с выгоранием, паническими атаками и бессонницей. Кундалини он начал как скептик: «мантры? тюрбан? серьёзно?». На третьей практике у него перестало колотиться сердце в первый раз за полгода. Через месяц он спал 7 часов без пробуждений. Через год уволился из IT и уехал в Индию на обучение.</p>
+
+<p class="teachers-modal__subtitle">Стиль преподавания:</p>
+<p class="teachers-modal__text">С юмором, железной логикой и уважением к чужим границам. Константин не заставляет петь, если не хочется. Объясняет, как работают дыхательные техники с точки зрения физиологии. Его любимая фраза: «Попробуйте как эксперимент. Если не сработает — бросите».</p>
+
+<p class="teachers-modal__subtitle">Расписание Константина:</p>
+<ul class="teacher-modal__list">
+    <li>ПН 12:00 (Кундалини)</li>
+    <li>ВТ 20:30 (Пранаяма)</li>
+    <li>СР 17:00 (Кундалини)</li>
+    <li>ЧТ 08:00 (Кундалини)</li>
+    <li>СБ 15:00 (Пранаяма)</li>
+</ul>
+    </div>
+</div>
+
+<!-- Преподаватель 4 -->
+<div class="teacher-modal" id="teacher4">
+    <div class="teacher-modal__content">
+        <button class="teacher-modal__close" data-close="teacher4">×</button>
+        <h2 class="teacher-modal__title">ОЛЬГА СЕРЕБРОВА</h2>
+        <p class="teacher-modal__direction">Кундалини-йога</p>
+        <p class="teachers-modal__subtitle">Опыт:</p>
+<ul class="teacher-modal__list">
+    <li>12 лет практики</li>
+    <li>5 лет преподавания</li>
+    <li>280+ проведённых занятий</li>
+</ul>
+
+<p class="teachers-modal__subtitle">Образование:</p>
+<ul class="teacher-modal__list">
+    <li>KRI Level 2 Instructor</li>
+    <li>Курс «Женская йога: гормоны и цикл» (160 часов)</li>
+    <li>Психологическое образование (МПСУ, 2 курса)</li>
+</ul>
+
+<p class="teachers-modal__subtitle">Личная история:</p>
+<p class="teachers-modal__text">Ольга — сертифицированный инструктор KRI (уровень 2). В прошлом — маркетолог с паническими атаками, которую выгорание привело сначала к психологу, а потом к Кундалини. Теперь она специализируется на женских кругах, гормональных практиках и работе с родовыми сценариями. Сама прошла через развод, потерю бизнеса и депрессию — и вышла из этого через практику.</p>
+
+<p class="teachers-modal__subtitle">Стиль преподавания:</p>
+<p class="teachers-modal__text">Глубокий, бережный, с элементами психотерапии. Ольга много говорит, но это не пустые слова — каждое её предложение попадает в цель. На её занятиях люди часто плачут — и это нормально, это часть процесса очищения.</p>
+
+<p class="teachers-modal__subtitle">Расписание Ольги:</p>
+<ul class="teacher-modal__list">
+    <li>СР 10:00 (Кундалини)</li>
+    <li>ПТ 15:00 (Кундалини)</li>
+    <li>ВС 15:00 (Кундалини)</li>
+</ul>
+    </div>
+</div>
+
+<!-- Преподаватель 5 -->
+<div class="teacher-modal" id="teacher5">
+    <div class="teacher-modal__content">
+        <button class="teacher-modal__close" data-close="teacher5">×</button>
+        <h2 class="teacher-modal__title">ЕЛЕНА ТКАЧЕНКО</h2>
+        <p class="teacher-modal__direction">Стретчинг</p>
+        <p class="teachers-modal__subtitle">Опыт:</p>
+<ul class="teacher-modal__list">
+    <li>15 лет в гимнастике + 6 лет в стретчинге</li>
+    <li>5 лет преподавания</li>
+    <li>500+ проведённых занятий</li>
+</ul>
+
+<p class="teachers-modal__subtitle">Образование:</p>
+<ul class="teacher-modal__list">
+    <li>КМС по художественной гимнастике</li>
+    <li>Реабилитолог (курсы при РНИМУ им. Пирогова)</li>
+    <li>Сертификат по PNF-растяжке (международный уровень)</li>
+</ul>
+
+<p class="teachers-modal__subtitle">Личная история:</p>
+<p class="teachers-modal__text">Елена — профессиональная гимнастка в прошлом (КМС) и реабилитолог по образованию. Сама Елена села на поперечный шпагат в 42 года после двух родов — и теперь доказывает, что возраст не приговор. Она знает все лазейки, через которые можно безопасно провести тело к шпагату даже в 50 лет.</p>
+
+<p class="teachers-modal__subtitle">Стиль преподавания:</p>
+<p class="teachers-modal__text">Мягкий, но настойчивый. Никакой резкой боли. Елена использует техники PNF (растяжка через расслабление) и проприоцептивную стимуляцию. Вы не терпите, а дышите — и вдруг обнаруживаете, что пальцы касаются пола там, где ещё месяц назад были колени.</p>
+
+<p class="teachers-modal__subtitle">Расписание Елены:</p>
+<ul class="teacher-modal__list">
+    <li>ПН 17:00 (Стретчинг)</li>
+    <li>ВТ 08:00 (Стретчинг)</li>
+    <li>СР 12:00 (Стретчинг)</li>
+    <li>ПТ 08:00 (Стретчинг)</li>
+    <li>ПТ 20:30 (Стретчинг)</li>
+</ul>
+    </div>
+</div>
+
+<!-- Преподаватель 6 -->
+<div class="teacher-modal" id="teacher6">
+    <div class="teacher-modal__content">
+        <button class="teacher-modal__close" data-close="teacher6">×</button>
+        <h2 class="teacher-modal__title">МИХАИЛ СОБОЛЕВ</h2>
+        <p class="teachers-modal__subtitle">Опыт:</p>
+<ul class="teacher-modal__list">
+    <li>15 лет танцевального стажа</li>
+    <li>7 лет в йоге</li>
+    <li>320+ проведённых занятий</li>
+</ul>
+
+<p class="teachers-modal__subtitle">Образование:</p>
+<ul class="teacher-modal__list">
+    <li>Высшее хореографическое (ГИТИС)</li>
+    <li>Курсы Виньяса-флоу (200 часов)</li>
+    <li>Сертификат по контемпорари и импровизации</li>
+</ul>
+
+<p class="teachers-modal__subtitle">Личная история:</p>
+<p class="teachers-modal__text">Михаил — танцор контемпорари и хореограф с 15-летним стажем. Он знает о растяжке всё, но главный его секрет — в умении объяснять сложное через образы. «Представь, что твои бёдра — это раскрывающаяся книга», «дыши в напряжение, как будто сдуваешь шарик» — после таких метафор тело вдруг слушается. Йогой занялся после травмы колена и понял, что это идеальный способ сохранять тело в тонусе между танцевальными проектами.</p>
+
+<p class="teachers-modal__subtitle">Стиль преподавания:</p>
+<p class="teachers-modal__text">Артистичный, музыкальный, динамичный. Михаил часто включает красивую музыку и строит занятие как танец. Он не требует тишины и сосредоточенного молчания — наоборот, добавляет лёгкости и радости.</p>
+
+<p class="teachers-modal__subtitle">Расписание Михаила:</p>
+<ul class="teacher-modal__list">
+    <li>СР 19:00 (Виньяса)</li>
+    <li>ЧТ 15:00 (Стретчинг)</li>
+    <li>СБ 10:00 (Виньяса)</li>
+    <li>ВС 10:00 (Стретчинг)</li>
+</ul>
+    </div>
+</div>
+
+<!-- Преподаватель 7 -->
+<div class="teacher-modal" id="teacher7">
+    <div class="teacher-modal__content">
+        <button class="teacher-modal__close" data-close="teacher7">×</button>
+        <h2 class="teacher-modal__title">МАРИЯ ОРЛОВА</h2>
+        <p class="teachers-modal__subtitle">Опыт:</p>
+<ul class="teacher-modal__list">
+    <li>10 лет практики</li>
+    <li>7 лет преподавания</li>
+    <li>420+ проведённых занятий</li>
+</ul>
+
+<p class="teachers-modal__subtitle">Образование:</p>
+<ul class="teacher-modal__list">
+    <li>Клинический психолог (МГУ, диплом с отличием)</li>
+    <li>Курс инструкторов Йога-Нидры (Бихарская школа йоги)</li>
+    <li>MBSR (медитация осознанности, международный сертификат)</li>
+</ul>
+
+<p class="teachers-modal__subtitle">Личная история:</p>
+<p class="teachers-modal__text">Мария — клинический психолог по образованию. С Йога-Нидрой она столкнулась, когда сама лечила хроническую бессонницу 3 года. Таблетки не помогали. Помогла практика, где нужно просто лежать и слушать. Мария настолько глубоко изучила тему, что её авторский курс «Сон без снотворного» прошли уже 400 человек.</p>
+
+<p class="teachers-modal__subtitle">Стиль преподавания:</p>
+<p class="teachers-modal__text">Тихий, обволакивающий голос, точные паузы, текст без воды. Мария не усыпляет гипнотически — она возвращает вашей нервной системе способность расслабляться самостоятельно. После её Нидры вы чувствуете, будто проспали 10 часов, даже если практика длилась 30 минут.</p>
+
+<p class="teachers-modal__subtitle">Расписание Марии:</p>
+<ul class="teacher-modal__list">
+    <li>ВТ 10:00 (Йога-Нидра)</li>
+    <li>СР 20:30 (Пранаяма)</li>
+    <li>ПТ 10:00 (Йога-Нидра)</li>
+    <li>ПТ 19:00 (Йога-Нидра)</li>
+    <li>СБ 15:00 (Йога-Нидра)</li>
+</ul>
+    </div>
+</div>
+
+<!-- Преподаватель 8 -->
+<div class="teacher-modal" id="teacher8">
+    <div class="teacher-modal__content">
+        <button class="teacher-modal__close" data-close="teacher8">×</button>
+        <h2 class="teacher-modal__title">АЛИНА ВЕТРОВА</h2>
+        <p class="teacher-modal__direction">Йога-Нидра и Йога-терапия</p>
+        <p class="teachers-modal__subtitle">Опыт:</p>
+<ul class="teacher-modal__list">
+    <li>8 лет практики</li>
+    <li>3 года преподавания</li>
+    <li>200+ проведённых занятий</li>
+</ul>
+
+<p class="teachers-modal__subtitle">Образование:</p>
+<ul class="teacher-modal__list">
+    <li>Нейропсихолог (МГППУ)</li>
+    <li>MBSR (медитация осознанности, полный курс)</li>
+    <li>Курс «Травма-чувствительная йога» (80 часов)</li>
+</ul>
+
+<p class="teachers-modal__subtitle">Личная история:</p>
+<p class="teachers-modal__text">Алина — нейропсихолог и инструктор по медитации осознанности. Йога-Нидру она адаптировала для работы с клиентами с ПТСР и хронической тревогой. Её голос — отдельный инструмент: тихий, с правильными паузами, без монотонности, от которой хочется не отдыхать, а бежать. Сама Алина долго работала в кризисном центре и видела, как стресс разрушает тело. Теперь она помогает восстанавливаться через практики, которые работают даже в самых сложных случаях.</p>
+
+<p class="teachers-modal__subtitle">Стиль преподавания:</p>
+<p class="teachers-modal__text">Терапевтичный, научно обоснованный. Алина объясняет, что происходит с мозгом во время Нидры: почему снижается кортизол, как перестаёт крутиться «умственная жвачка». Её текст содержит специальные нейролингвистические якоря, которые усиливают эффект расслабления.</p>
+
+<p class="teachers-modal__subtitle">Расписание Алины:</p>
+<ul class="teacher-modal__list">
+    <li>ПН 10:00 (Йога-терапия)</li>
+    <li>СР 15:00 (Йога-терапия)</li>
+    <li>ПТ 10:00 (Йога-Нидра)</li>
+    <li>ВС 15:00 (Йога-Нидра)</li>
+</ul>
+</div>
+</div>
+
+<!-- Преподаватель 9 -->
+<div class="teacher-modal" id="teacher9">
+    <div class="teacher-modal__content">
+        <button class="teacher-modal__close" data-close="teacher9">×</button>
+        <h2 class="teacher-modal__title">СЕРГЕЙ НОВИКОВ</h2>
+        <p class="teacher-modal__direction">Виньяса-флоу</p>
+        <p class="teachers-modal__subtitle">Опыт:</p>
+<ul class="teacher-modal__list">
+    <li>12 лет в фитнесе + 5 лет в йоге</li>
+    <li>4 года преподавания</li>
+    <li>380+ проведённых занятий</li>
+</ul>
+
+<p class="teachers-modal__subtitle">Образование:</p>
+<ul class="teacher-modal__list">
+    <li>Фитнес-тренер (FPA)</li>
+    <li>Курсы Виньяса-флоу (200 часов, международный сертификат)</li>
+    <li>Анатомический курс для тренеров (120 часов)</li>
+</ul>
+
+<p class="teachers-modal__subtitle">Личная история:</p>
+<p class="teachers-modal__text">Сергей — фитнес-тренер с 10-летним стажем, переквалифицировался в йогу 5 лет назад. Понял, что обычный фитнес даёт силу, но не даёт гибкости и спокойствия. А йога даёт и то, и другое. Его занятия самые энергозатратные в студии. Любит сложные связки и балансы, но даёт альтернативы для новичков. Сам практикует Виньясу 6 раз в неделю.</p>
+
+<p class="teachers-modal__subtitle">Стиль преподавания:</p>
+<p class="teachers-modal__text">Энергичный, мотивирующий, с хорошей музыкой (инструментал или лоу-фай). Сергей подбадривает, но не заставляет. Его любимая фраза: «Сделай, сколько можешь. Завтра сможешь больше».</p>
+
+<p class="teachers-modal__subtitle">Расписание Сергея:</p>
+<ul class="teacher-modal__list">
+    <li>ПН 08:00 (Виньяса)</li>
+    <li>ВТ 19:00 (Виньяса)</li>
+    <li>СР 08:00 (Виньяса)</li>
+    <li>ПТ 20:30 (Виньяса)</li>
+</ul>
+    </div>
+</div>
+
+<!-- Преподаватель 10 -->
+<div class="teacher-modal" id="teacher10">
+    <div class="teacher-modal__content">
+        <button class="teacher-modal__close" data-close="teacher10">×</button>
+        <h2 class="teacher-modal__title">КРИСТИНА ВОЛКОВА</h2>
+        <p class="teacher-modal__direction">Виньяса-флоу и Айенгар-йога</p>
+        <p class="teachers-modal__subtitle">Опыт:</p>
+<ul class="teacher-modal__list">
+    <li>10 лет практики</li>
+    <li>6 лет преподавания</li>
+    <li>310+ проведённых занятий</li>
+</ul>
+
+<p class="teachers-modal__subtitle">Образование:</p>
+<ul class="teacher-modal__list">
+    <li>Международная школа Виньясы (RYT 200)</li>
+    <li>Институт Айенгара в Москве (сертификат Intro I)</li>
+    <li>Курс «Анатомия и биомеханика» (80 часов)</li>
+</ul>
+
+<p class="teachers-modal__subtitle">Личная история:</p>
+<p class="teachers-modal__text">Кристина — уникум: преподаёт и динамичный флоу, и статичный, выверенный Айенгар. Начала с Айенгара после травмы колена (вылечила именно там). Потом влюбилась в Виньясу за драйв. Говорит: «В Виньясе ты летишь. В Айенгаре ты приземляешься. Мне нужно и то, и другое». Её фишка — переходные практики, где она соединяет оба стиля.</p>
+
+<p class="teachers-modal__subtitle">Стиль преподавания:</p>
+<p class="teachers-modal__text">Гибко переключается между драйвом и медитативной точностью. На Виньясе — быстрая музыка и поток. На Айенгаре — тишина, инвентарь и миллиметр за миллиметром выстраивает позу.</p>
+
+<p class="teachers-modal__subtitle">Расписание Кристины:</p>
+<ul class="teacher-modal__list">
+    <li>ВТ 20:30 (Айенгар)</li>
+    <li>СР 12:00 (Виньяса)</li>
+    <li>СБ 12:00 (Айенгар)</li>
+    <li>ВС 12:00 (Виньяса)</li>
+</ul>
+    </div>
+</div>
+
+<!-- Преподаватель 11 -->
+<div class="teacher-modal" id="teacher11">
+    <div class="teacher-modal__content">
+        <button class="teacher-modal__close" data-close="teacher11">×</button>
+        <h2 class="teacher-modal__title">ИЛЬЯ ГРОМОВ</h2>
+        <p class="teacher-modal__direction">Айенгар-йога</p>
+        <p class="teachers-modal__subtitle">Опыт:</p>
+<ul class="teacher-modal__list">
+    <li>8 лет практики</li>
+    <li>5 лет преподавания</li>
+    <li>290+ проведённых занятий</li>
+</ul>
+
+<p class="teachers-modal__subtitle">Образование:</p>
+<ul class="teacher-modal__list">
+    <li>Институт Айенгара в Москве (сертификат Intro II)</li>
+    <li>Высшее инженерное образование (МГСУ)</li>
+    <li>Курс «Анатомия для Айенгар-йоги» (120 часов)</li>
+</ul>
+
+<p class="teachers-modal__subtitle">Личная история:</p>
+<p class="teachers-modal__text">Илья — инженер-строитель по образованию. В Айенгар пришёл через желание вылечить грыжу поясничного отдела — и вылечил. Теперь он фанат геометрии в йоге: говорит о выравнивании, осевых нагрузках и углах наклона так, что понятно даже гуманитариям.</p>
+
+<p class="teachers-modal__subtitle">Стиль преподавания:</p>
+<p class="teachers-modal__text">Педантичный, терпеливый, использует много инвентаря (кирпичи, ремни, одеяла, стулья, валики). Илья верит, что нет неправильного тела — есть неправильный подход.</p>
+
+<p class="teachers-modal__subtitle">Расписание Ильи:</p>
+<ul class="teacher-modal__list">
+    <li>ВТ 20:30 (Айенгар)</li>
+    <li>ЧТ 08:00 (Айенгар)</li>
+    <li>СБ 12:00 (Айенгар)</li>
+</ul>
+    </div>
+</div>
+
+<!-- Преподаватель 12 -->
+<div class="teacher-modal" id="teacher12">
+    <div class="teacher-modal__content">
+        <button class="teacher-modal__close" data-close="teacher12">×</button>
+        <h2 class="teacher-modal__title">НАТАЛЬЯ ЛЕВИНА</h2>
+        <p class="teacher-modal__direction">Йога-терапия</p>
+        <p class="teachers-modal__subtitle">Опыт:</p>
+<ul class="teacher-modal__list">
+    <li>20 лет врачебной практики (ЛФК)</li>
+    <li>7 лет преподавания йога-терапии</li>
+    <li>600+ проведённых занятий</li>
+</ul>
+
+<p class="teachers-modal__subtitle">Образование:</p>
+<ul class="teacher-modal__list">
+    <li>Высшее медицинское (лечебное дело)</li>
+    <li>Ординатура по реабилитации</li>
+    <li>Курсы йога-терапии при РУДН (240 часов)</li>
+    <li>Сертификат «Йога для пожилых и маломобильных»</li>
+</ul>
+
+<p class="teachers-modal__subtitle">Личная история:</p>
+<p class="teachers-modal__text">Наталья 15 лет проработала в реабилитационном центре — с пациентами после инсультов, инфарктов, тяжёлых операций. Йогой заинтересовалась, когда поняла, что обычная ЛФК не даёт главного — спокойствия и работы с психикой. Стала внедрять йога-терапевтические техники в свою практику и увидела результат: пациенты быстрее шли на поправку. Она создала авторский курс «Мягкое восстановление», который сейчас рекомендуют реабилитологи города.</p>
+
+<p class="teachers-modal__subtitle">Стиль преподавания:</p>
+<p class="teachers-modal__text">Максимально медленно, максимально безопасно. Стулья, валики, одеяла, стены, ремни — всё идёт в ход. Никакой боли «через не могу». Если человек не может лечь на пол — он занимается сидя или стоя. Наталья знает 15 вариантов входа в позу ребёнка — для любого состояния.</p>
+
+<p class="teachers-modal__subtitle">Расписание Натальи:</p>
+<ul class="teacher-modal__list">
+    <li>ПН 10:00 (Йога-терапия)</li>
+    <li>СР 15:00 (Йога-терапия)</li>
+    <li>ПТ 10:00 (Йога-терапия)</li>
+</ul>
+    </div>
+</div>
+    <script src="js/teachers.js"></script>
+</body>
+</html>

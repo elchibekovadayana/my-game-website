@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Studio - Услуги и прайс</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <!-- Логотип -->
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="Yoga Studio" class="logo__img">
+            </a>
+
+            <!-- Бургер-меню -->
+            <button class="burger" id="burgerBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Навигация -->
+            <nav class="nav" id="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">ГЛАВНАЯ</a></li>
+                    <li class="nav__item"><a href="directions.html" class="nav__link">НАПРАВЛЕНИЯ</a></li>
+                    <li class="nav__item"><a href="teachers.html" class="nav__link">ПРЕПОДАВАТЕЛИ</a></li>
+                    <li class="nav__item"><a href="services.html" class="nav__link active">УСЛУГИ И ПРАЙС</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+    <main>
+         <section class="services-page">
+    <div class="container">
+        <h1 class="services-page__title">УСЛУГИ И ПРАЙС</h1>
+
+        <!-- Пробное занятие -->
+        <div class="services-page__item">
+            <h2 class="services-page__subtitle">ПРОБНОЕ ЗАНЯТИЕ</h2>
+            <p class="services-page__text">Первое пробное занятие (любое направление) — 350р.<br>При покупке абонемента пробное занятие в подарок.</p>
+        </div>
+
+        <!-- Разовые посещения -->
+        <div class="services-page__item">
+            <h2 class="services-page__subtitle">РАЗОВЫЕ ПОСЕЩЕНИЯ</h2>
+            <p class="services-page__text">Будни (Пн-Пт) — 700р.<br>Выходные (Сб-Вс) — 800р.</p>
+        </div>
+
+        <!-- Абонементы -->
+        <div class="services-page__item">
+            <h2 class="services-page__subtitle">АБОНЕМЕНТЫ</h2>
+            <table class="services-page__table">
+                <thead>
+                    <tr>
+                        <th>Кол-во занятий</th>
+                        <th>Срок действия</th>
+                        <th>Цена</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>4 занятия</td>
+                        <td>30 дней</td>
+                        <td>2 600р. (650 за урок)</td>
+                    </tr>
+                    <tr>
+                        <td>8 занятий</td>
+                        <td>45 дней</td>
+                        <td>4 800р. (600 за урок)</td>
+                    </tr>
+                    <tr>
+                        <td>12 занятий</td>
+                        <td>60 дней</td>
+                        <td>6 600р. (550 за урок)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Безлимитные абонементы -->
+        <div class="services-page__item">
+            <h2 class="services-page__subtitle">БЕЗЛИМИТНЫЕ АБОНЕМЕНТЫ</h2>
+            <table class="services-page__table">
+                <thead>
+                    <tr>
+                        <th>Срок действия</th>
+                        <th>Цена</th>
+                        <th>Экономия</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>30 дней</td>
+                        <td>7 900р.</td>
+                        <td>—</td>
+                    </tr>
+                    <tr>
+                        <td>3 месяца</td>
+                        <td>21 000р. (7 000р./мес.)</td>
+                        <td>-11%</td>
+                    </tr>
+                    <tr>
+                        <td>6 месяцев</td>
+                        <td>39 000р. (8 500р./мес.)</td>
+                        <td>-18%</td>
+                    </tr>
+                    <tr>
+                        <td>12 месяцев</td>
+                        <td>72 000р. (6 000р./мес.)</td>
+                        <td>-24%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Условия -->
+        <div class="services-page__item">
+            <h2 class="services-page__subtitle">УСЛОВИЯ</h2>
+            <table class="services-page__table">
+                <thead>
+                    <tr>
+                        <th>Условие</th>
+                        <th>Правило</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Заморозка абонемента</td>
+                        <td>14 дней бесплатно, далее 200р./мес.</td>
+                    </tr>
+                    <tr>
+                        <td>Отмена/перенос занятия</td>
+                        <td>Бесплатно за 4ч до старта</td>
+                    </tr>
+                    <tr>
+                        <td>Неявка</td>
+                        <td>Занятие сгорает</td>
+                    </tr>
+                    <tr>
+                        <td>Возврат абонемента</td>
+                        <td>За неиспользованные занятия</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+             <div class="footer__inner">
+
+    <!-- Колонка 1: Логотип + время работы -->
+    <div class="footer__col">
+        <a href="index.html" class="footer__logo">
+            <img src="images/logo.png" alt="Yoga Studio" class="logo__img">
+        </a>
+        <div class="footer__hours">
+            <p><strong>Время работы:</strong></p>
+            <p>Пн-Пт: с 08:00 до 22:00</p>
+            <p>Сб-Вс: с 09:00 до 18:00</p>
+        </div>
+    </div>
+
+    <!-- Колонка 2: Навигация -->
+    <div class="footer__col">
+        <h4 class="footer__title">НАВИГАЦИЯ</h4>
+        <ul class="footer__list">
+            <li><a href="index.html">ГЛАВНАЯ</a></li>
+            <li><a href="directions.html">НАПРАВЛЕНИЯ</a></li>
+            <li><a href="teachers.html">ПРЕПОДАВАТЕЛИ</a></li>
+            <li><a href="services.html">УСЛУГИ И ПРАЙС</a></li>
+        </ul>
+    </div>
+
+    <!-- Колонка 3: Контакты -->
+    <div class="footer__col">
+        <h4 class="footer__title">КОНТАКТЫ</h4>
+        <ul class="footer__list">
+            <li>м. "Комендантский проспект"<br>г. СПб, ул. Ильюшина, д. 14</li>
+            <li><a href="tel:+79516741741">+7 (951) 674-17-41</a></li>
+            <li><a href="mailto:info@yoga.studio">info@yoga.studio</a></li>
+        </ul>
+    </div>
+
+    <!-- Колонка 4: Соцсети -->
+    <div class="footer__col">
+        <h4 class="footer__title">СЛЕДИТЕ ЗА НАМИ</h4>
+        <div class="footer__social">
+            <a href="#" class="footer__social-link">
+                <img src="images/instagram.png" alt="Instagram">
+            </a>
+            <a href="#" class="footer__social-link">
+                <img src="images/telegram.png" alt="Telegram">
+            </a>
+            <a href="#" class="footer__social-link">
+                <img src="images/vk.png" alt="VK">
+            </a>
+            <a href="#" class="footer__social-link">
+                <img src="images/whatsapp.png" alt="WhatsApp">
+            </a>
+        </div>
+    </div>
+</div>
+        </div>
+    </footer>
+    <script src="js/services.js"></script>
+</body>
+</html>
