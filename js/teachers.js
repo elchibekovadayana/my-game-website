@@ -1,11 +1,9 @@
-// ========== МОДАЛЬНЫЕ ОКНА ДЛЯ ПРЕПОДАВАТЕЛЕЙ ==========
+// МОДАЛЬНЫЕ ОКНА ДЛЯ ПРЕПОДАВАТЕЛЕЙ
 console.log('Скрипт teachers.js загружен');
 
-// Проверяем все ссылки
 var allLinks = document.querySelectorAll('.teacher-card__link');
 console.log('Найдено ссылок "Подробнее":', allLinks.length);
 
-// Клик по "Подробнее"
 document.querySelectorAll('.teacher-card__link').forEach(function(link) {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -23,7 +21,6 @@ document.querySelectorAll('.teacher-card__link').forEach(function(link) {
     });
 });
 
-// Закрытие по крестику
 document.querySelectorAll('.teacher-modal__close').forEach(function(btn) {
     btn.addEventListener('click', function() {
         var modal = this.closest('.teacher-modal');
@@ -33,7 +30,6 @@ document.querySelectorAll('.teacher-modal__close').forEach(function(btn) {
     });
 });
 
-// Закрытие по клику на затемнение
 document.querySelectorAll('.teacher-modal').forEach(function(modal) {
     modal.addEventListener('click', function(e) {
         if (e.target === this) {
@@ -44,7 +40,6 @@ document.querySelectorAll('.teacher-modal').forEach(function(modal) {
     });
 });
 
-// Закрытие по Escape
 document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape') {
         document.querySelectorAll('.teacher-modal.active').forEach(function(modal) {
@@ -55,7 +50,7 @@ document.addEventListener('keydown', function(e) {
     }
 });
 
-// ========== БУРГЕР-МЕНЮ ==========
+// БУРГЕР-МЕНЮ
 const burger = document.getElementById('burgerBtn');
 const nav = document.getElementById('nav');
 
@@ -66,7 +61,6 @@ if (burger && nav) {
         document.body.style.overflow = nav.classList.contains('active') ? 'hidden' : '';
     });
 
-    // Закрытие при клике на ссылку
     document.querySelectorAll('.nav__link').forEach(function(link) {
         link.addEventListener('click', function() {
             burger.classList.remove('active');
@@ -75,7 +69,6 @@ if (burger && nav) {
         });
     });
 
-    // Закрытие при клике вне меню
     document.addEventListener('click', function(e) {
         if (nav.classList.contains('active') && !nav.contains(e.target) && !burger.contains(e.target)) {
             burger.classList.remove('active');
