@@ -1,4 +1,4 @@
-// ========== МОДАЛЬНОЕ ОКНО ==========
+// МОДАЛЬНОЕ ОКНО
 var modal = document.getElementById('modal');
 var overlay = document.getElementById('modalOverlay');
 var closeBtn = document.getElementById('modalClose');
@@ -22,7 +22,7 @@ document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape') closeModal();
 });
 
-// ========== ВСЕ КНОПКИ С КЛАССОМ .btn ==========
+//========== ВСЕ КНОПКИ С КЛАССОМ .btn
 document.querySelectorAll('.btn').forEach(function(btn) {
     btn.addEventListener('click', function(e) {
         e.preventDefault();
@@ -30,7 +30,7 @@ document.querySelectorAll('.btn').forEach(function(btn) {
     });
 });
 
-// ========== ВАЛИДАЦИЯ ФОРМЫ ==========
+// ВАЛИДАЦИЯ ФОРМЫ
 var form = document.getElementById('modalForm');
 var nameInput = document.getElementById('modalName');
 var phoneInput = document.getElementById('modalPhone');
@@ -80,7 +80,6 @@ const dotsContainer = document.getElementById('dotsContainer');
 let currentIndex = 0;
 const totalSlides = slides.length;
 
-// Создаём точки
 slides.forEach((_, index) => {
     const dot = document.createElement('button');
     dot.classList.add('reviews__dot');
@@ -105,7 +104,7 @@ function goToSlide(index) {
 prevBtn.addEventListener('click', () => goToSlide(currentIndex - 1));
 nextBtn.addEventListener('click', () => goToSlide(currentIndex + 1));
 
-// ========== БУРГЕР-МЕНЮ ==========
+//  БУРГЕР-МЕНЮ
 const burger = document.getElementById('burgerBtn');
 const nav = document.getElementById('nav');
 
@@ -116,7 +115,6 @@ if (burger && nav) {
         document.body.style.overflow = nav.classList.contains('active') ? 'hidden' : '';
     });
 
-    // Закрытие при клике на ссылку
     document.querySelectorAll('.nav__link').forEach(function(link) {
         link.addEventListener('click', function() {
             burger.classList.remove('active');
@@ -125,7 +123,6 @@ if (burger && nav) {
         });
     });
 
-    // Закрытие при клике вне меню
     document.addEventListener('click', function(e) {
         if (nav.classList.contains('active') && !nav.contains(e.target) && !burger.contains(e.target)) {
             burger.classList.remove('active');
