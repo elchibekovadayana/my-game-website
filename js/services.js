@@ -1,4 +1,4 @@
-// ========== БУРГЕР-МЕНЮ ==========
+// БУРГЕР-МЕНЮ
 const burger = document.getElementById('burgerBtn');
 const nav = document.getElementById('nav');
 
@@ -9,7 +9,6 @@ if (burger && nav) {
         document.body.style.overflow = nav.classList.contains('active') ? 'hidden' : '';
     });
 
-    // Закрытие при клике на ссылку
     document.querySelectorAll('.nav__link').forEach(function(link) {
         link.addEventListener('click', function() {
             burger.classList.remove('active');
@@ -18,7 +17,6 @@ if (burger && nav) {
         });
     });
 
-    // Закрытие при клике вне меню
     document.addEventListener('click', function(e) {
         if (nav.classList.contains('active') && !nav.contains(e.target) && !burger.contains(e.target)) {
             burger.classList.remove('active');
